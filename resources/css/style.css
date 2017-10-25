@@ -51,13 +51,14 @@ header .header-title {
   display: block;
   margin-top: 9rem;
   margin-bottom: 6rem;
+  padding-left: 3rem;
   width: 20rem;
 }
 
 .arrival-text h4 {
   color: white;
+  margin-bottom: 0.25rem;
   padding-top: 2rem;
-  padding-left: 3rem;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -65,9 +66,9 @@ header .header-title {
 .arrival-text h2 {
   color: white;
   padding-top: 0.25rem;
-  padding-left: 3rem;
   font-size: 2rem;
   font-weight: bold;
+  width: 100%;
 }
 
 nav {
@@ -103,15 +104,17 @@ nav li {
 }
 
 .item .image-container {
-  display: block;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   height: 9rem;
-  width: auto;
+  max-width: 9rem;
   margin: 2rem 0;
 }
 
 .item img {
   max-height: 100%;
-  width: auto;
+  max-width: 100%;
 }
 
 .item span {
