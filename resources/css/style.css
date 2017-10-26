@@ -194,5 +194,56 @@ footer p {
 }
 
 @media only screen and (max-width:470px) {
-  
+  .arrival-text h4 {
+    margin: 0 0;
+    font-size: 0.77rem;
+  }
+
+  .arrival-text h2 {
+    margin: 0 0;
+    font-size: 1rem;
+  }
+
+  .new-arrival .arrival-text {
+    margin-top: 10rem;
+    margin-bottom: 0;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .new-arrival {
+    height: 15rem;
+  }
+
+  .items {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .items .item1 {
+    width: 90%;
+  }
+
+  .items .item2,
+  .items .item3 {
+    display: none;
+  }
+
+  .info {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info .info-item {
+    width: 90%;
+    margin: 0.25rem 0;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
 }
